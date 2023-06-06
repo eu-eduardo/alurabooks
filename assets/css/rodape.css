@@ -11,8 +11,43 @@
     font-weight: 500;
 }
 
+.sessao__artigo {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
-    
+    .rodape__titulo {
+        font-size: 24px;
+        padding: 1em;
+    }
+
+    .rodape__sessoes {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sessao__artigo {
+        margin: 1em;
+        display: block;
+    }
+
+    .sessao__artigo--titulo {
+        color: var(--cinza);
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .sessao__item {
+        margin: 2em 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .sessao__link {
+        text-decoration: none;
+        color: var(--preto);
+        margin-left: 1em;
+    }
 
 }
