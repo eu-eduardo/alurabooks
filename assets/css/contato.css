@@ -18,15 +18,40 @@
 }
 
 .contato__email {
-    border-bottom: .1px solid var(--azul);
+    border-bottom: 1px solid var(--azul);
     padding: 1em;
     border-radius: 24px;
     width: 90%;
-    text-align: center;
 }
 
 .contato__email::placeholder {
     color: var(--azul);
     font-weight: 400;
     font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contato__geral {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__email {
+        width: 40%;
+        height: 20%;
+        margin: 0 auto;
+    }
+
+    .contato__email::placeholder {
+        text-align: center;
+        font-size: 18px;
+    }
+
 }

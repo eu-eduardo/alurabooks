@@ -86,3 +86,43 @@
     font-weight: 700;
     padding: 1em 2.2em;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 26px;
+        padding: 2em 0 1em 0;;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper-slide {
+    }
+
+    .swiper-slide img {
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: block;
+        top: 37%;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+
+    .card {
+        width: 60%;
+        margin: 24px auto;
+    }
+
+}

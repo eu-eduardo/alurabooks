@@ -11,6 +11,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body class="corpo">
 
@@ -31,12 +34,31 @@
                     <li class="lista__menu--item"><a href="#" class="lista__menu--link">DESIGN & UX</a></li>
                 </ul>
                 <img src="./assets/img/Logo.svg" alt="Logo AluraBooks" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
             </div>
+
+            <ul class="opcoes">
+                <input type="checkbox" name="opcoes-menu" id="opcoes-menu" class="opcoes__menu">
+                <label for="opcoes-menu">
+                    <li class="opcoes__item">Categorias</li>
+                </label>
+
+                <ul class="lista__menu">
+                    <li class="lista__menu--item"><a href="#" class="lista__menu--link">PROGRAMAÇÃO</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista__menu--link">FRONT-END</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista__menu--link">INFRAESTRUTURA</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista__menu--link">BUSINESS</a></li>
+                    <li class="lista__menu--item"><a href="#" class="lista__menu--link">DESIGN & UX</a></li>
+                </ul>
+
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+            </ul>
 
             <div class="container">
 
                 <a href="#" class="cabecalho__link">
-                    <img src="./assets/img/Favoritos.svg" alt="Link Favoritos" class="container__imagem">
+                    <img src="./assets/img/Favoritos.svg" alt="Link Favoritos" class="container__imagem container__imagem--coracao">
                 </a>
                 <a href="#" class="cabecalho__link">
                     <img src="./assets/img/Compras.svg" alt="Link Compras" class="container__imagem">
@@ -176,9 +198,13 @@
 
         <section class="contato">
 
-            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-            <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
+            <div class="contato__geral">
+                <div class="contato__info">
+                    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+                </div>
+                <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
+            </div>
 
         </section>
 

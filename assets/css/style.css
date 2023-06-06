@@ -13,9 +13,15 @@
     --laranja: #EB9B00;
     --azul: #002F52;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --preto: #000000;
 
     --fonte-principal: 'Poppins', sans-serif;
+    --fonte-titulo: 'Josefin Sans', sans-serif;
 
+}
+
+* {
+    scroll-behavior: smooth;
 }
 
 .corpo {
