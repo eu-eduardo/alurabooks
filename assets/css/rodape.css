@@ -2,7 +2,7 @@
 
 .rodape {
     background-color: var(--branco);
-    border-top: 1px solid black;
+    border-top: 1px solid var(--cinza);
     padding: 1em;
     color: var(--azul);
 }
@@ -46,8 +46,17 @@
 
     .sessao__link {
         text-decoration: none;
-        color: var(--preto);
+        color: var(--cinza);
         margin-left: 1em;
+    }
+
+}
+
+@media screen and (min-width: 1728px){
+
+    .sessao__artigo {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
     }
 
 }

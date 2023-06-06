@@ -62,9 +62,11 @@
                 </a>
                 <a href="#" class="cabecalho__link">
                     <img src="./assets/img/Compras.svg" alt="Link Compras" class="container__imagem">
+                    <p class="container__imagem--link">Minha sacola</p>
                 </a>
                 <a href="#" class="cabecalho__link">
                     <img src="./assets/img/Usuario.svg" alt="Link Meu Perfil" class="container__imagem">
+                    <p class="container__imagem--link">Meu perfil</p>
                 </a>
                 
             </div>
@@ -81,27 +83,31 @@
 
         <section class="carrossel">
 
-            <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+            <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+            
+            <div class="carrossel__container">
+                <div class="swiper">
 
-            <div class="swiper">
+                    <div class="swiper-pagination"></div>
 
-                <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/img/ApacheKafka.png" alt="Livro de Apache"></div>
+                    <div class="swiper-slide"><img src="./assets/img/Liderança.png" alt="Livro de Liderança"></div>
+                    <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro de Js"></div>
+                    <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
+                    <div class="swiper-slide"><img src="./assets/img/Portugol.png" alt="Livro de Portugol"></div>
+                    <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
 
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="./assets/img/ApacheKafka.png" alt="Livro de Apache"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Liderança.png" alt="Livro de Liderança"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro de Js"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Portugol.png" alt="Livro de Portugol"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
 
+                    
                 </div>
-              
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
 
                 <div class="card">
 
@@ -121,40 +127,35 @@
                         </ul>
                         <a href="#" class="botoes__ancora">Saiba mais</a>
                     </div>
-
-
-                </div>
-              
-              </div>
-
+                
+                </div>  
+            </div>
         </section>
 
         <section class="carrossel">
 
             <h2 class="carrossel__titulo">Mais vendidos</h2>
 
-            <div class="swiper">
-
-                <div class="swiper-pagination"></div>
-
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro de Js"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Portugol.png" alt="Livro de Portugol"></div>
-                  <div class="swiper-slide"><img src="./assets/img/ApacheKafka.png" alt="Livro de Apache"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro de Js"></div>
-                  <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
-
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro de Js"></div>
+                      <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
+                      <div class="swiper-slide"><img src="./assets/img/Portugol.png" alt="Livro de Portugol"></div>
+                      <div class="swiper-slide"><img src="./assets/img/ApacheKafka.png" alt="Livro de Apache"></div>
+                      <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro de Js"></div>
+                      <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro de Front"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
                 </div>
-              
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
                 <div class="card">
-
                     <div class="card__descricao">
                         <div class="descricao">
                             <h3 class="descricao__titulo">&#10028;&#10028;&#10028;&#10028;&#10028;</h3>
@@ -164,7 +165,6 @@
                         </div>
                         <img src="./assets/img/Perfil-escritora 1-1.png" alt="Imagem Juliana" class="descricao__imagem">
                     </div>
-
                     <div class="card__botoes">
                         <ul class="botoes">
                             <li class="botoes__item"><img src="./assets/img/Favoritos.svg" alt="Favoritar"></li>
@@ -172,11 +172,8 @@
                         </ul>
                         <a href="#" class="botoes__ancora">Saiba mais</a>
                     </div>
-
-
                 </div>
-              
-              </div>
+            </div>
 
         </section>
 
@@ -219,11 +216,11 @@
                     <h2 class="sessao__artigo--titulo">Educação</h2>
                     <ul class="sessao__lista">
                         <li class="sessao__item">
-                            <span><img src="./assets/img/Caelum.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/Caelum.png" alt="Logo Caelum" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Caelum</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/CasaDoCodigo.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/CasaDoCodigo.png" alt="Logo Casa do Código" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Casa do Código</a>
                         </li>
                     </ul>
@@ -235,31 +232,31 @@
                     <h2 class="sessao__artigo--titulo">Educação Online</h2>
                     <ul class="sessao__lista">
                         <li class="sessao__item">
-                            <span><img src="./assets/img/Alura.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/Alura.png" alt="Logo Alura" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Alura</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/AluraEmpresas.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/AluraEmpresas.png" alt="Logo Alura Empresas" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Alura para Empresas</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/AluraLatam.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/AluraLatam.png" alt="Logo Alura Latam" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Alura LATAM</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/AluraStart.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/AluraStart.png" alt="Logo Alura Start" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Alura Start</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/MusicDot.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/MusicDot.png" alt="Logo MusicDot" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">MusicDot</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/AluraLingua.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/AluraLingua.png" alt="Logo Alura Língua" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Alura Língua</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/PM3.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/PM3.png" alt="Logo PM3" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">PM3</a>
                         </li>
                     </ul>
@@ -271,31 +268,31 @@
                     <h2 class="sessao__artigo--titulo">Comunidade</h2>
                     <ul class="sessao__lista">
                         <li class="sessao__item">
-                            <span><img src="./assets/img/HipstersTech.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/HipstersTech.png" alt="Logo Hipsters Tech" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Hipsters Pontotech</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/Scuba.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/Scuba.png" alt="Logo Scuba" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Scuva Dev</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/Layers.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/Layers.png" alt="Logo Layers" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Layers ponto Tech</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/LikeABoss.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/LikeABoss.png" alt="Logo Like A Boss" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Like a Boss</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/CarreiraSemFronteira.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/CarreiraSemFronteira.png" alt="Logo Carreira sem Fronteira" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Carreira sem Fronteira</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/HipstersJobs.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/HipstersJobs.png" alt="Logo Hipsters Jobs" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">Hipsters ponto Jobs</a>
                         </li>
                         <li class="sessao__item">
-                            <span><img src="./assets/img/GUJ.png" alt="" class="sessao__imagem"></span>
+                            <span><img src="./assets/img/GUJ.png" alt="Logo GUJ" class="sessao__imagem"></span>
                             <a href="#" class="sessao__link">GUJ</a>
                         </li>
                     </ul>

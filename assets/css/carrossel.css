@@ -95,7 +95,7 @@
     }
 
     .swiper {
-        width: 70%;
+        width: 60%;
     }
 
     .swiper-pagination {
@@ -111,7 +111,7 @@
     .swiper-button-next,
     .swiper-button-prev {
         display: block;
-        top: 37%;
+        top: 50%;
     }
 
     .descricao__texto {
@@ -121,8 +121,35 @@
     
 
     .card {
-        width: 60%;
+        width: 35%;
         margin: 24px auto;
+    }
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__container {
+        display: flex;
+        margin: 3em 15vw 3em 15vw;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .swiper {
+        width: 45%;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    .descricao {
+        padding: 1em
     }
 
 }
